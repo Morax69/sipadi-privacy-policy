@@ -1,0 +1,55 @@
+/* styles/PrivacyPolicy.module.css */
+.container {
+  max-width: 800px;
+  background-color: white;
+  margin: 0 auto;
+  padding: 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  text-align: justify;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #f0f4f8, #ffffff);
+  line-height: 1.7;
+  color: #333;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #007BFF;
+  text-align: center;
+}
+
+.subtitle {
+    font-size: 1.5rem;
+  margin-top: 1.5rem;
+  color: #0056b3;
+}
+
+.text {
+  font-size: 1rem;
+  color: #444;
+}
+
+.list {
+  padding-left: 1.2rem;
+}
+
+.back {
+  display: inline-block;
+  margin-top: 2rem;
+  text-decoration: none;
+  color: #007BFF;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.back:hover {
+  color: #0056b3;
+}
+
+.subpoint {
+  margin-left: 1.5rem;
+  text-indent: -1.5rem;
+  padding-left: 1.5rem;
+}
